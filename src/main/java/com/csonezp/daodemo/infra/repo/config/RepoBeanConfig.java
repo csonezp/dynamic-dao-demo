@@ -30,9 +30,6 @@ public class RepoBeanConfig {
         RepoBeanDefinitionRegistry registry = new RepoBeanDefinitionRegistry(jdbcTemplate);
         return registry;
     }
-    @Bean
-    public User myUser(JdbcTemplate jdbcTemplate){
-        return new User();
-    }
+
 
 }
