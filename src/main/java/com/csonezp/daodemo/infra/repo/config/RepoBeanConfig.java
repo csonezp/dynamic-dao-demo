@@ -12,8 +12,7 @@ import javax.sql.DataSource;
 
 @Configuration
 public class RepoBeanConfig {
-    @Autowired
-    JdbcTemplate jdbcTemplate;
+
 
     @Bean
     public DataSource datasource() {
